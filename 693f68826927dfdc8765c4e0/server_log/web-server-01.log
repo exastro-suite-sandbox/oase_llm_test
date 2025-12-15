@@ -1,0 +1,13 @@
+Dec 12 15:30:40 web-server-01 kernel: Out of memory: Kill process 12345 (httpd) score 856 or sacrifice child
+Dec 12 15:30:41 web-server-01 systemd[1]: httpd.service: Main process exited, code=killed, status=9/KILL
+Dec 12 15:30:41 web-server-01 systemd[1]: httpd.service: Failed with result 'signal'
+Dec 12 15:30:42 web-server-01 systemd[1]: httpd.service: Unit entered failed state
+Dec 12 15:30:43 web-server-01 systemd[1]: httpd.service: Failed to start The Apache HTTP Server
+Dec 12 15:30:45 web-server-01 monit[1234]: 'httpd' process is not running
+Dec 12 15:30:45 web-server-01 nagios[5678]: SERVICE ALERT: web-server-01;HTTP;CRITICAL;HARD;3;Connection refused
+Dec 12 13:15:22 web-server-01 kernel: EXT4-fs warning (device /dev/sda1): ext4_dx_add_entry:2393: Directory index full!
+Dec 12 13:15:23 web-server-01 logrotate[11111]: ALERT: /var/log/httpd/access.log has not been rotated for 7 days
+Dec 12 13:15:24 web-server-01 disk-monitor[33333]: WARNING: Disk usage on /var/log partition is 95%
+Dec 12 11:45:50 web-server-01 sshd[22222]: Failed password for invalid user admin from 203.0.113.100 port 55555 ssh2
+Dec 12 11:45:51 web-server-01 fail2ban.filter[44444]: INFO [sshd] Found 203.0.113.100 - 2025-12-12 11:45:51
+Dec 12 11:45:52 web-server-01 fail2ban.actions[44444]: NOTICE [sshd] Ban 203.0.113.100

@@ -1,0 +1,2 @@
+_exastro_agent_name,_exastro_agent_version,_exastro_checked,_exastro_end_time,_exastro_evaluated,_exastro_event_collection_settings_id,_exastro_fetched_time,_exastro_timeout,_exastro_type,_exastro_undetected,case,collection_name,service,uuid,value
+ita-oase-agent-01,2.7.0,1,2025/12/15 10:47:01,0,27aa860d-39c4-4dcf-8465-31e756b6f286,2025/12/15 10:46:41,0,event,1,6514bc8b-1f70-4c5a-85c8-6d93b1829afc,Z4,httpd,842bf852-1949-4415-85f5-9d91c1c1f86c,Webサーバのhttpdサービスが予期せず停止しました

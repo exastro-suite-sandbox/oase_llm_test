@@ -1,0 +1,5 @@
+builtin:
+  cloudwatch_messages_log_retriever:
+    path: /home/almalinux/exastro_event_agent/source/693f68826927dfdc8765c4e0/server_log
+    max_len: 200
+    return_summary: True
