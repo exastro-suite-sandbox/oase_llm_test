@@ -1,0 +1,5 @@
+Dec 12 14:25:10 db-server-02 mysqld[9876]: [Warning] Too many connections
+Dec 12 14:25:11 db-server-02 mysqld[9876]: [Note] Aborted connection 485 to db: 'production' user: 'app_user' host: '192.168.1.100' (Got an error reading communication packets)
+Dec 12 14:25:12 db-server-02 mysqld[9876]: [Warning] Connection count: 485/500 (97% of max_connections)
+Dec 12 14:25:12 db-server-02 mysql-monitor[2468]: WARNING: MySQL connection count threshold exceeded
+Dec 12 14:25:13 db-server-02 systemd[1]: mysql-monitor.service: Service hold-off time over, scheduling restart

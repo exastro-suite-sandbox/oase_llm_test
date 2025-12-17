@@ -1,0 +1,9 @@
+Dec 12 16:45:30 app-server-03 java[13579]: Exception in thread 'http-nio-8080-exec-15' java.lang.OutOfMemoryError: Java heap space
+Dec 12 16:45:31 app-server-03 java[13579]: at com.example.order.OrderProcessor.processOrder(OrderProcessor.java:245)
+Dec 12 16:45:32 app-server-03 java[13579]: SEVERE: Servlet.service() for servlet [OrderServlet] in context with path [/order] threw exception
+Dec 12 16:45:33 app-server-03 tomcat[13579]: org.apache.catalina.core.StandardWrapperValve invoke
+Dec 12 16:45:33 app-server-03 systemd[1]: tomcat.service: Main process exited, code=exited, status=1/FAILURE
+Dec 12 16:45:34 app-server-03 zabbix_agentd[24680]: item 'jvm.memory.heap.used' became not supported: Cannot obtain JVM heap memory usage
+Dec 12 12:30:15 app-server-03 NetworkManager[1111]: <warn> [1734004215.123] dhcp4 (eth0): request timed out
+Dec 12 12:30:16 app-server-03 kernel: TCP: time wait bucket table overflow
+Dec 12 12:30:17 app-server-03 kernel: net_ratelimit: 847 callbacks suppressed
