@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1707196989591,503,book_info,500,INTERNAL SERVER ERROR,scenario9_Book_Info_1_49h 1-87538,text,false,,14712,201,49,49,http://internal-k8s-scenario-ingresss-bfece45977-1862863791.ap-northeast-1.elb.amazonaws.com/productpage,501,0,2
