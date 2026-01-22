@@ -1,0 +1,23 @@
+initial_info:
+  alert_msg:
+    desc: Alert message
+    path: data/alert_msg.txt
+  error_msg:
+    desc: Associated error messages
+    path: data/error_msg.txt
+  error_time:
+    desc: Alert time
+    time: '2026-01-22 10:17:50.000+09:00'
+  kg_data:
+    desc: knowledge graph data
+    path: data/KG.jsonl
+sample:
+  settings:
+    chatmodel: openai4.1
+    llm_max_retry: 5
+tools:
+  builtin:
+    cloudtrail_log_retriever:
+      max_len: 200
+      path: demo/logs/CloudTrail_log/event_history.csv
+      return_summary: true
