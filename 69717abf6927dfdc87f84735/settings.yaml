@@ -19,5 +19,5 @@ tools:
   builtin:
     cloudtrail_log_retriever:
       max_len: 200
-      path: demo/logs/CloudTrail_log/event_history.csv
+      path: logs/CloudTrail_log/event_history.csv
       return_summary: true
