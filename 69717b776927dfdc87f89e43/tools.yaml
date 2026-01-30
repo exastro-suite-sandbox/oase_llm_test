@@ -1,0 +1,5 @@
+builtin:
+  cloudtrail_log_retriever:
+    path: demo/logs/CloudTrail_log/event_history.csv
+    max_len: 200
+    return_summary: True
